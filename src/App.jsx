@@ -1,35 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
-function App() {
-  const [count, setCount] = useState(0)
-
+export default function App() {
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <main className="min-h-screen text-neutral-200">
+        <header className="sticky top-0 z-50 border-b border-white/10 backdrop-blur">
+          <div className="mx-auto max-w-6xl px-4 py-4">NAVBAR</div>
+        </header>
+
+        <section className="mx-auto max-w-6xl px-4 py-16">
+          <h1 className="text-4xl font-bold"> Hola, soy Nene</h1>
+          <p className="text-neutral-400 mt-3">Fullstack + AI + MLOps</p>
+        </section>
+
+        <footer className="border-t border-white/10">
+          <div className="mx-auto max-w-6xl px-4 py-6 text-neutral-400">
+              &copy; {new Date().getFullYear()} Nene - Fullstack + AI
+          </div>
+        </footer>
+      </main>
     </>
   )
 }
-
-export default App
