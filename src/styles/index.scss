@@ -1,0 +1,18 @@
+:root {
+    --acent: #F43F5E;
+    --bg: #0A0A0A;
+    --fg: #E5E7EB;
+}
+
+html, body, #root {
+    height: 100%;
+}
+
+body {
+    background: var(--bg);
+    color: var(--fg);
+    text-rendering: optimizeLegibility;
+}
+
+.neon-ring { @apply ring-1 ring-inset ring-white/10 rounded-2xl; }
+.card { @apply border border-white/10 bg-white/5 rounded-2xl shadow-sm hover:bg-white/10 transition; }
