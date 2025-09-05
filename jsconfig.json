@@ -7,7 +7,8 @@
       "@features/*": ["src/features/*"],
       "@styles/*": ["src/styles/*"],
       "@lib/*": ["src/lib/*"],
-      "@data/*": ["src/data/*"]
+      "@data/*": ["src/data/*"],
+      "@pages/*": ["src/pages/*"],
     }
   },
   "include": ["src"]
