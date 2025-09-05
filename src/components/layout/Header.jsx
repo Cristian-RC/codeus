@@ -17,11 +17,12 @@ export default function Header({ accent="#F43F5E" }) {
                         className="h-2 w-2 animate-pulse rouded-full"
                         style={{ backgroundColor: accent }}
                     />
-                    <span
+                    <a
+                        href="#"
                         className="font-semibold"
                     >
-                        Nene//AI//Fullstack
-                    </span>
+                        Nene| AI | Fullstack
+                    </a>
                 </div>
 
                 <nav
