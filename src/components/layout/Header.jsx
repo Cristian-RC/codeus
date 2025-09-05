@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail } from "lucide-react";
+import { SiGithub, SiLinkedin, SiGmail } from "react-icons/si";
 import IconLink from "../ui/IconLink";
 
 
@@ -49,24 +49,27 @@ export default function Header({ accent="#F43F5E" }) {
                         href="https://github.com/Cristian-RC"
                         ariaLabel="Github"
                         accent={accent}
+                        hoverColor={"#24292E"}
                     >
-                        <Github className="h-4 w-4"/>
+                        <SiGithub className="h-4 w-4"/>
                     </IconLink>
 
                     <IconLink
                         href="https://www.linkedin.com/in/cristian-rubio-ai-dev"
                         ariaLabel="Linkedin"
                         accent={accent}
+                        hoverColor={"#0A66C2"}
                     >
-                        <Linkedin className="h-4 w-4"/>
+                        <SiLinkedin className="h-4 w-4"/>
                     </IconLink>
 
                     <IconLink
                         href="mailto:cristian.rubio@codeus.mx"
                         ariaLabel="Email"
                         accent={accent}
+                        hoverColor={"#EA4335"}
                     >
-                        <Mail className="h-4 w-4"/>
+                        <SiGmail className="h-4 w-4"/>
                     </IconLink>
 
                     <a 
