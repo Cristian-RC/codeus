@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
 @layer base {
-    html { color-scheme: dark; }
+    html { color-scheme: dark; scroll-behavior: smooth; }
     body { @apply bg-black text-neutral-200 antialiased; }
 }
