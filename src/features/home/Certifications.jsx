@@ -17,16 +17,21 @@ export default function Certifications({ accent="#F43F5E" }) {
                             key={c.name}
                             href={c.href}
                             className="flex items-center gap-4 rounded-2xl border border-white/10 bg-white/5 p-5 transition hover:bg-white/10"
+                            target="_blank" 
                         >
                             <div className="shrink-0">    
                                 {c.img ? (
                                     <img 
                                         src={c.img}
                                         alt={`Badge ${c.name}`}
-                                        className="h-12 w-12 rounded-lg ring-1 ring-inset ring-white/10"
+                                        width={48}
+                                        height={48}
+                                        loading="lazy"
+                                        decoding="async"
+                                        className="h-48 w-48 rounded-lg ring-1 ring-inset ring-white/10"
                                     />
                                 ) : (
-                                    <div className="h-12 w-12 rounded-lg bg-gradient-to-br from-white/10 to-white/0 ring-1 ring-inset ring-white/10"/>
+                                    <div className="h-12 w-12 rounded-lg ring-1 ring-inset ring-white/10 object-contain"/>
                                 )}
                             </div>
                             <div className="flex-1">
