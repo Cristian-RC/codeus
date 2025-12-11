@@ -18,7 +18,7 @@ export default function AboutMe({ accent = "#F43F5E" }) {
 
         <div className="grid content-start gap-3">
           {[
-            { k: "Rol", v: "Fullstack & AI" },
+            { k: "Rol", v: "Fullstack & AI Developer" },
             { k: "Periodo", v: "2022–2025" },
             { k: "Equipo", v: "Club América" },
           ].map((it) => (
