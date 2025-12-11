@@ -9,6 +9,7 @@
       "@lib/*": ["src/lib/*"],
       "@data/*": ["src/data/*"],
       "@pages/*": ["src/pages/*"],
+      "@assets/*": ["src/assets/*"],
     }
   },
   "include": ["src"]
