@@ -21,7 +21,7 @@ export default function Header({ accent="#F43F5E" }) {
                         href="#"
                         className="font-semibold"
                     >
-                        Nene| AI | Fullstack
+                        Nene//AI//Fullstack
                     </a>
                 </div>
 
